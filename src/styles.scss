@@ -18,6 +18,15 @@ ul{
     list-style: none;
 }
 
+textarea:focus, input:focus, button{
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+//Classes
 .container{
     width: 350px;
     margin: 50px auto;
